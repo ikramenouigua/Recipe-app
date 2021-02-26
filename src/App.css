@@ -1,0 +1,44 @@
+.App {
+  min-height:100vh;
+  background-image: -webkit-linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.5/)),url(./back.jpg);
+}
+.search-form{
+  min-height:10vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.search-bar{
+  width:50%;
+  display:flex;
+  border:none;
+  padding:10px;
+}
+.search-button{
+  background: #9365ff;
+  border:none;
+  padding:10px 20px;
+  color:white;
+  font-size:20px;
+  font-style:italic;
+  border-radius: 40px;
+  width:100px;
+}
+.search-bar{
+  border-radius: 40px;
+  width:300px;
+  margin:40px;
+}
+.recipes{
+  justify-content:space-around;
+  flex-wrap:wrap;
+  margin-left:400px;
+}
+.labell{
+  font-style: italic;
+  color:white;
+  font-size: 30px;
+  font-weight: 500%;
+}
+
+
